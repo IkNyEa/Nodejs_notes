@@ -1,0 +1,7 @@
+{
+    "devDependencies": {
+        "@types/node": "^15.12.4"
+    },
+    "dependencies": {},
+    "type": "module"
+}

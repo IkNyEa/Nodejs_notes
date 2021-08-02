@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            border: none;
+        }
+        
+        .fa {
+            background-color: cornflowerblue;
+            width: 400px;
+            height: 400px;
+            margin: 0;
+        }
+        
+        .fa div:first-child {
+            background-color: darkcyan;
+            width: 100px;
+            height: 100px;
+        }
+        
+        .fa div:last-child {
+            background-color: lightsalmon;
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="fa">
+        <div>1</div>
+        <div>2</div>
+    </div>
+    <script>
+        function test() {
+            //测试函数提升和变量提升
+            var a;
+            console.log(a);
+            a = 2;
+
+        }
+        test();
+        console.log(b)
+    </script>
+</body>
+
+</html>
